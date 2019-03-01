@@ -104,7 +104,7 @@ void Control(){
 	outR += memmap.values.GAIN_WHEEL_CORRELATION * memmap.values.GAIN_WHEEL_CORRELATION_ANGULAR_SPD * correlation;
 
 	// ステップ応答
-	if ( count(1000) < cnt1++ ){
+	if ( count(2000) < cnt1++ ){
 		memmap.values.T_SPD_L = 10;
 		memmap.values.T_SPD_R = 10;
 	}
