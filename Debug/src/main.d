@@ -1,0 +1,16 @@
+src/main.o src/main.d: ../src/main.c \
+ C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib/Balancer2.h \
+ C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib/lpc13xx.h \
+ C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib/core_cm3.h \
+ C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib/system_LPC13xx.h \
+ C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/inc/control.h
+
+C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib/Balancer2.h:
+
+C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib/lpc13xx.h:
+
+C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib/core_cm3.h:
+
+C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib/system_LPC13xx.h:
+
+C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/inc/control.h:
