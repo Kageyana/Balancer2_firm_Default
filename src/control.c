@@ -75,6 +75,12 @@ void Control(){
 	Tspd_L_i += (memmap.values.T_SPD_L/MAIN_CYCLE);
 	Tspd_R_i += (memmap.values.T_SPD_R/MAIN_CYCLE);
 
+	// ステップ応答
+	if ( count(2000) < cnt1++ ){
+		memmap.values.WHEEL_ANGLE_L += 5;
+		memmap.values.WHEEL_ANGLE_R += 5;
+	}
+
 	//ホイール角度、角速度算出
 	wheel_L_angle = memmap.values.WHEEL_ANGLE_L - Tspd_L_i;
 	wheel_R_angle = memmap.values.WHEEL_ANGLE_R - Tspd_R_i;
@@ -102,12 +108,13 @@ void Control(){
 	//左右ホイール間の角速度差フィードバック
 	outL -= memmap.values.GAIN_WHEEL_CORRELATION * memmap.values.GAIN_WHEEL_CORRELATION_ANGULAR_SPD * correlation;
 	outR += memmap.values.GAIN_WHEEL_CORRELATION * memmap.values.GAIN_WHEEL_CORRELATION_ANGULAR_SPD * correlation;
-
+/*
 	// ステップ応答
 	if ( count(2000) < cnt1++ ){
 		memmap.values.T_SPD_L = 10;
 		memmap.values.T_SPD_R = 10;
 	}
+*/
 
 	//最大指令値規制
 	if(outL > 32767.0){
