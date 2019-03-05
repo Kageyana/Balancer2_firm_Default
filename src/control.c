@@ -109,6 +109,11 @@ void Control(){
 		memmap.values.T_SPD_R = 10;
 	}
 
+	if ( memmap.values.WHEEL_ANGLE_L > 2738 ){		// 1000/(ホイールの円周　*　pi) * 360
+		memmap.values.T_SPD_L = 0;
+		memmap.values.T_SPD_R = 0;
+	}
+
 	//最大指令値規制
 	if(outL > 32767.0){
 		outL = 32767.0;
