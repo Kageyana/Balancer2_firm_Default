@@ -305,7 +305,7 @@ END GROUP
                 0x00008000                __top_FlashMap = 0x8000
                 0x10002000                __top_RamLoc8 = 0x10002000
 
-.text           0x00000000     0x4704
+.text           0x00000000     0x46ec
  *(.isr_vector)
  .isr_vector    0x00000000      0x124 ./src/cr_startup_lpc13.o
                 0x00000000                g_pfnVectors
@@ -316,439 +316,439 @@ END GROUP
  .text.calibrarion
                 0x00000148      0x100 ./src/control.o
                 0x00000148                calibrarion
- .text.Control  0x00000248      0x368 ./src/control.o
+ .text.Control  0x00000248      0x350 ./src/control.o
                 0x00000248                Control
  .text.VS_C3Control
-                0x000005b0       0x80 ./src/control.o
-                0x000005b0                VS_C3Control
+                0x00000598       0x80 ./src/control.o
+                0x00000598                VS_C3Control
  .text.isWhleeOverSpeed
-                0x00000630       0xd8 ./src/control.o
-                0x00000630                isWhleeOverSpeed
+                0x00000618       0xd8 ./src/control.o
+                0x00000618                isWhleeOverSpeed
  .text.NMI_Handler
-                0x00000708        0x4 ./src/cr_startup_lpc13.o
-                0x00000708                NMI_Handler
+                0x000006f0        0x4 ./src/cr_startup_lpc13.o
+                0x000006f0                NMI_Handler
  .text.HardFault_Handler
-                0x0000070c        0x4 ./src/cr_startup_lpc13.o
-                0x0000070c                HardFault_Handler
+                0x000006f4        0x4 ./src/cr_startup_lpc13.o
+                0x000006f4                HardFault_Handler
  .text.MemManage_Handler
-                0x00000710        0x4 ./src/cr_startup_lpc13.o
-                0x00000710                MemManage_Handler
+                0x000006f8        0x4 ./src/cr_startup_lpc13.o
+                0x000006f8                MemManage_Handler
  .text.BusFault_Handler
-                0x00000714        0x4 ./src/cr_startup_lpc13.o
-                0x00000714                BusFault_Handler
+                0x000006fc        0x4 ./src/cr_startup_lpc13.o
+                0x000006fc                BusFault_Handler
  .text.UsageFault_Handler
-                0x00000718        0x4 ./src/cr_startup_lpc13.o
-                0x00000718                UsageFault_Handler
+                0x00000700        0x4 ./src/cr_startup_lpc13.o
+                0x00000700                UsageFault_Handler
  .text.SVCall_Handler
-                0x0000071c        0x4 ./src/cr_startup_lpc13.o
-                0x0000071c                SVCall_Handler
+                0x00000704        0x4 ./src/cr_startup_lpc13.o
+                0x00000704                SVCall_Handler
  .text.DebugMon_Handler
-                0x00000720        0x4 ./src/cr_startup_lpc13.o
-                0x00000720                DebugMon_Handler
+                0x00000708        0x4 ./src/cr_startup_lpc13.o
+                0x00000708                DebugMon_Handler
  .text.PendSV_Handler
-                0x00000724        0x4 ./src/cr_startup_lpc13.o
-                0x00000724                PendSV_Handler
+                0x0000070c        0x4 ./src/cr_startup_lpc13.o
+                0x0000070c                PendSV_Handler
  .text.IntDefaultHandler
-                0x00000728        0x4 ./src/cr_startup_lpc13.o
-                0x00000728                TIMER16_0_IRQHandler
-                0x00000728                TIMER32_1_IRQHandler
-                0x00000728                PIOINT1_IRQHandler
-                0x00000728                SSP_IRQHandler
-                0x00000728                TIMER16_1_IRQHandler
-                0x00000728                USB_FIQHandler
-                0x00000728                PIOINT2_IRQHandler
-                0x00000728                BOD_IRQHandler
-                0x00000728                WAKEUP_IRQHandler
-                0x00000728                PIOINT0_IRQHandler
-                0x00000728                WDT_IRQHandler
-                0x00000728                PIOINT3_IRQHandler
-                0x00000728                FMC_IRQHandler
+                0x00000710        0x4 ./src/cr_startup_lpc13.o
+                0x00000710                TIMER16_0_IRQHandler
+                0x00000710                TIMER32_1_IRQHandler
+                0x00000710                PIOINT1_IRQHandler
+                0x00000710                SSP_IRQHandler
+                0x00000710                TIMER16_1_IRQHandler
+                0x00000710                USB_FIQHandler
+                0x00000710                PIOINT2_IRQHandler
+                0x00000710                BOD_IRQHandler
+                0x00000710                WAKEUP_IRQHandler
+                0x00000710                PIOINT0_IRQHandler
+                0x00000710                WDT_IRQHandler
+                0x00000710                PIOINT3_IRQHandler
+                0x00000710                FMC_IRQHandler
  .text.Reset_Handler
-                0x0000072c       0x6c ./src/cr_startup_lpc13.o
-                0x0000072c                ResetISR
-                0x0000072c                Reset_Handler
+                0x00000714       0x6c ./src/cr_startup_lpc13.o
+                0x00000714                ResetISR
+                0x00000714                Reset_Handler
  .text.LedBlink
-                0x00000798       0x4c ./src/main.o
-                0x00000798                LedBlink
- .text.main     0x000007e4      0x11c ./src/main.o
-                0x000007e4                main
+                0x00000780       0x4c ./src/main.o
+                0x00000780                LedBlink
+ .text.main     0x000007cc      0x11c ./src/main.o
+                0x000007cc                main
  .text.ClearCurrentVariables
-                0x00000900       0x64 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
-                0x00000900                ClearCurrentVariables
+                0x000008e8       0x64 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
+                0x000008e8                ClearCurrentVariables
  .text.getCurrent
-                0x00000964       0x6c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
-                0x00000964                getCurrent
+                0x0000094c       0x6c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
+                0x0000094c                getCurrent
  .text.CurrentControlDisable
-                0x000009d0       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
-                0x000009d0                CurrentControlDisable
+                0x000009b8       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
+                0x000009b8                CurrentControlDisable
  .text.CurrentControlEnable
-                0x000009e0       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
-                0x000009e0                CurrentControlEnable
+                0x000009c8       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
+                0x000009c8                CurrentControlEnable
  .text.MTRCurrentControlProc
-                0x000009f0      0x234 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
-                0x000009f0                MTRCurrentControlProc
+                0x000009d8      0x234 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
+                0x000009d8                MTRCurrentControlProc
  .text.InitEncoder
-                0x00000c24       0x94 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
-                0x00000c24                InitEncoder
+                0x00000c0c       0x94 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
+                0x00000c0c                InitEncoder
  .text.ClearEncVariables
-                0x00000cb8       0x28 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
-                0x00000cb8                ClearEncVariables
- .text.EncProc  0x00000ce0      0x188 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
-                0x00000ce0                EncProc
+                0x00000ca0       0x28 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
+                0x00000ca0                ClearEncVariables
+ .text.EncProc  0x00000cc8      0x188 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
+                0x00000cc8                EncProc
  .text.IntEncoder
-                0x00000e68       0x90 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
-                0x00000e68                IntEncoder
+                0x00000e50       0x90 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
+                0x00000e50                IntEncoder
  .text.SysTick_Handler
-                0x00000ef8       0x44 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
-                0x00000ef8                SysTick_Handler
+                0x00000ee0       0x44 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
+                0x00000ee0                SysTick_Handler
  .text.GPIOSetDir
-                0x00000f3c       0xf0 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gpio.o)
-                0x00000f3c                GPIOSetDir
+                0x00000f24       0xf0 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gpio.o)
+                0x00000f24                GPIOSetDir
  .text.GPIOSetValue
-                0x0000102c       0x60 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gpio.o)
-                0x0000102c                GPIOSetValue
+                0x00001014       0x60 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gpio.o)
+                0x00001014                GPIOSetValue
  .text.GPIOGetValueBit
-                0x0000108c       0x60 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gpio.o)
-                0x0000108c                GPIOGetValueBit
+                0x00001074       0x60 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gpio.o)
+                0x00001074                GPIOGetValueBit
  .text.ClearGyroVariables
-                0x000010ec       0x1c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gyro.o)
-                0x000010ec                ClearGyroVariables
+                0x000010d4       0x1c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gyro.o)
+                0x000010d4                ClearGyroVariables
  .text.SetI2CGain
-                0x00001108       0x70 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gyro.o)
-                0x00001108                SetI2CGain
+                0x000010f0       0x70 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gyro.o)
+                0x000010f0                SetI2CGain
  .text.getGyroI2C
-                0x00001178       0x50 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gyro.o)
-                0x00001178                getGyroI2C
+                0x00001160       0x50 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gyro.o)
+                0x00001160                getGyroI2C
  .text.GyroProc
-                0x000011c8       0xe8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gyro.o)
-                0x000011c8                GyroProc
+                0x000011b0       0xe8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gyro.o)
+                0x000011b0                GyroProc
  .text.I2C_IRQHandler
-                0x000012b0      0x230 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
-                0x000012b0                I2C_IRQHandler
+                0x00001298      0x230 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
+                0x00001298                I2C_IRQHandler
  .text.I2CStart
-                0x000014e0       0x50 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
-                0x000014e0                I2CStart
- .text.I2CStop  0x00001530       0x1c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
-                0x00001530                I2CStop
- .text.I2CInit  0x0000154c       0x70 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
-                0x0000154c                I2CInit
+                0x000014c8       0x50 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
+                0x000014c8                I2CStart
+ .text.I2CStop  0x00001518       0x1c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
+                0x00001518                I2CStop
+ .text.I2CInit  0x00001534       0x70 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
+                0x00001534                I2CInit
  .text.I2CEngine
-                0x000015bc       0x34 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
-                0x000015bc                I2CEngine
+                0x000015a4       0x34 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
+                0x000015a4                I2CEngine
  .text.isLogEnable
-                0x000015f0       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(log.o)
-                0x000015f0                isLogEnable
+                0x000015d8       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(log.o)
+                0x000015d8                isLogEnable
  .text.isLogRecoding
-                0x00001600       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(log.o)
-                0x00001600                isLogRecoding
+                0x000015e8       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(log.o)
+                0x000015e8                isLogRecoding
  .text.LogStart
-                0x00001614       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(log.o)
-                0x00001614                LogStart
- .text.LogProc  0x00001628      0x178 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(log.o)
-                0x00001628                LogProc
+                0x000015fc       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(log.o)
+                0x000015fc                LogStart
+ .text.LogProc  0x00001610      0x178 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(log.o)
+                0x00001610                LogProc
  .text.SystemInit
-                0x000017a0       0xec C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(system_LPC13xx.o)
-                0x000017a0                SystemInit
+                0x00001788       0xec C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(system_LPC13xx.o)
+                0x00001788                SystemInit
  .text.UART_IRQHandler
-                0x0000188c       0xd4 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(uart.o)
-                0x0000188c                UART_IRQHandler
+                0x00001874       0xd4 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(uart.o)
+                0x00001874                UART_IRQHandler
  .text.UARTInit
-                0x00001960       0xd8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(uart.o)
-                0x00001960                UARTInit
- .text.getCnt   0x00001a38       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(util.o)
-                0x00001a38                getCnt
- .text.Sync     0x00001a48       0x30 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001a48                Sync
- .text.getSW    0x00001a78       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001a78                getSW
- .text.Wait     0x00001a8c       0x44 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001a8c                Wait
+                0x00001948       0xd8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(uart.o)
+                0x00001948                UARTInit
+ .text.getCnt   0x00001a20       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(util.o)
+                0x00001a20                getCnt
+ .text.Sync     0x00001a30       0x30 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001a30                Sync
+ .text.getSW    0x00001a60       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001a60                getSW
+ .text.Wait     0x00001a74       0x44 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001a74                Wait
  .text.CycleProc
-                0x00001ad0       0x4c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001ad0                CycleProc
- .text.setLED   0x00001b1c       0x24 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001b1c                setLED
+                0x00001ab8       0x4c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001ab8                CycleProc
+ .text.setLED   0x00001b04       0x24 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001b04                setLED
  .text.InitMemmap
-                0x00001b40      0x1b8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001b40                InitMemmap
+                0x00001b28      0x1b8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001b28                InitMemmap
  .text.SetMotorPwm
-                0x00001cf8      0x100 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001cf8                SetMotorPwm
+                0x00001ce0      0x100 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001ce0                SetMotorPwm
  .text.Timer16Init
-                0x00001df8       0x7c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001df8                Timer16Init
+                0x00001de0       0x7c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001de0                Timer16Init
  .text.Timer32Init
-                0x00001e74       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001e74                Timer32Init
+                0x00001e5c       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001e5c                Timer32Init
  .text.TIMER32_0_IRQHandler
-                0x00001eb0       0x90 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001eb0                TIMER32_0_IRQHandler
+                0x00001e98       0x90 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001e98                TIMER32_0_IRQHandler
  .text.DisableIntterupt
-                0x00001f40       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001f40                DisableIntterupt
- .text.Init     0x00001f7c      0x100 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x00001f7c                Init
+                0x00001f28       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001f28                DisableIntterupt
+ .text.Init     0x00001f64      0x100 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00001f64                Init
  .text.Balancer2Init
-                0x0000207c       0x20 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x0000207c                Balancer2Init
+                0x00002064       0x20 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00002064                Balancer2Init
  .text.EnableIntterupt
-                0x0000209c       0x20 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
-                0x0000209c                EnableIntterupt
- .text.ADCInit  0x000020bc       0xa0 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(adc.o)
-                0x000020bc                ADCInit
- .text.ADCRead  0x0000215c       0x24 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(adc.o)
-                0x0000215c                ADCRead
+                0x00002084       0x20 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+                0x00002084                EnableIntterupt
+ .text.ADCInit  0x000020a4       0xa0 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(adc.o)
+                0x000020a4                ADCInit
+ .text.ADCRead  0x00002144       0x24 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(adc.o)
+                0x00002144                ADCRead
  .text.ADC_IRQHandler
-                0x00002180      0x164 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(adc.o)
-                0x00002180                ADC_IRQHandler
+                0x00002168      0x164 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(adc.o)
+                0x00002168                ADC_IRQHandler
  .text.call_IAP
-                0x000022e4       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
+                0x000022cc       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
  .text.FLASH_ProgramPage
-                0x00002310       0x48 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
-                0x00002310                FLASH_ProgramPage
+                0x000022f8       0x48 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
+                0x000022f8                FLASH_ProgramPage
  .text.FLASH_ErasePage
-                0x00002358       0x30 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
-                0x00002358                FLASH_ErasePage
+                0x00002340       0x30 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
+                0x00002340                FLASH_ErasePage
  .text.FLASH_WRITE_MEMMAP
-                0x00002388       0x48 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
-                0x00002388                FLASH_WRITE_MEMMAP
+                0x00002370       0x48 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
+                0x00002370                FLASH_WRITE_MEMMAP
  .text.FLASH_READ_MEMMAP
-                0x000023d0       0x1c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
-                0x000023d0                FLASH_READ_MEMMAP
- .text.PadWait  0x000023ec       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
-                0x000023ec                PadWait
- .text.Ds2rw    0x000023fc       0x8c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
-                0x000023fc                Ds2rw
- .text.Ds2Com   0x00002488       0x44 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
-                0x00002488                Ds2Com
+                0x000023b8       0x1c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
+                0x000023b8                FLASH_READ_MEMMAP
+ .text.PadWait  0x000023d4       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
+                0x000023d4                PadWait
+ .text.Ds2rw    0x000023e4       0x8c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
+                0x000023e4                Ds2rw
+ .text.Ds2Com   0x00002470       0x44 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
+                0x00002470                Ds2Com
  .text.PS_Set_AN
-                0x000024cc       0xa0 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
-                0x000024cc                PS_Set_AN
+                0x000024b4       0xa0 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
+                0x000024b4                PS_Set_AN
  .text.updatePAD
-                0x0000256c       0xb8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
-                0x0000256c                updatePAD
- .text.PADProc  0x00002624        0x8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
-                0x00002624                PADProc
- .text.USBInit  0x0000262c       0x70 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
-                0x0000262c                USBInit
+                0x00002554       0xb8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
+                0x00002554                updatePAD
+ .text.PADProc  0x0000260c        0x8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
+                0x0000260c                PADProc
+ .text.USBInit  0x00002614       0x70 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
+                0x00002614                USBInit
  .text.USB_Reset_Event
-                0x0000269c        0x8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
-                0x0000269c                USB_Reset_Event
+                0x00002684        0x8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
+                0x00002684                USB_Reset_Event
  .text.SetUSBSendData
-                0x000026a4       0x40 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
-                0x000026a4                SetUSBSendData
+                0x0000268c       0x40 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
+                0x0000268c                SetUSBSendData
  .text.InUSBDataProcces
-                0x000026e4      0x19c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
-                0x000026e4                InUSBDataProcces
+                0x000026cc      0x19c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
+                0x000026cc                InUSBDataProcces
  .text.USB_EndPoint1
-                0x00002880       0x18 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
-                0x00002880                USB_EndPoint1
+                0x00002868       0x18 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
+                0x00002868                USB_EndPoint1
  .text.USB_ResetCore
-                0x00002898       0x4c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x00002898                USB_ResetCore
+                0x00002880       0x4c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002880                USB_ResetCore
  .text.USB_SetupStage
-                0x000028e4       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x000028e4                USB_SetupStage
+                0x000028cc       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x000028cc                USB_SetupStage
  .text.USB_DataInStage
-                0x000028f8       0x58 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x000028f8                USB_DataInStage
+                0x000028e0       0x58 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x000028e0                USB_DataInStage
  .text.USB_DataOutStage
-                0x00002950       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x00002950                USB_DataOutStage
+                0x00002938       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002938                USB_DataOutStage
  .text.USB_StatusInStage
-                0x0000298c       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x0000298c                USB_StatusInStage
+                0x00002974       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002974                USB_StatusInStage
  .text.USB_StatusOutStage
-                0x0000299c       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x0000299c                USB_StatusOutStage
+                0x00002984       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002984                USB_StatusOutStage
  .text.USB_ReqGetStatus
-                0x000029b0       0xf4 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x000029b0                USB_ReqGetStatus
+                0x00002998       0xf4 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002998                USB_ReqGetStatus
  .text.USB_ReqSetClrFeature
-                0x00002aa4      0x130 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x00002aa4                USB_ReqSetClrFeature
+                0x00002a8c      0x130 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002a8c                USB_ReqSetClrFeature
  .text.USB_ReqSetAddress
-                0x00002bd4       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x00002bd4                USB_ReqSetAddress
+                0x00002bbc       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002bbc                USB_ReqSetAddress
  .text.USB_ReqGetDescriptor
-                0x00002c10      0x174 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x00002c10                USB_ReqGetDescriptor
+                0x00002bf8      0x174 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002bf8                USB_ReqGetDescriptor
  .text.USB_ReqGetConfiguration
-                0x00002d84       0x38 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x00002d84                USB_ReqGetConfiguration
+                0x00002d6c       0x38 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002d6c                USB_ReqGetConfiguration
  .text.UsbAddPtr
-                0x00002dbc       0x24 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x00002dbc                UsbAddPtr
+                0x00002da4       0x24 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002da4                UsbAddPtr
  .text.USB_ReqSetConfiguration
-                0x00002de0      0x254 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x00002de0                USB_ReqSetConfiguration
+                0x00002dc8      0x254 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00002dc8                USB_ReqSetConfiguration
  .text.USB_ReqGetInterface
-                0x00003034       0x68 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x00003034                USB_ReqGetInterface
+                0x0000301c       0x68 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x0000301c                USB_ReqGetInterface
  .text.USB_ReqSetInterface
-                0x0000309c      0x1b8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x0000309c                USB_ReqSetInterface
+                0x00003084      0x1b8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x00003084                USB_ReqSetInterface
  .text.USB_EndPoint0
-                0x00003254      0x32c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
-                0x00003254                USB_EndPoint0
- .text.delay    0x00003580       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003580                delay
- .text.EPAdr    0x000035ac       0x30 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x000035ac                EPAdr
- .text.WrCmd    0x000035dc       0x58 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x000035dc                WrCmd
+                0x0000323c      0x32c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+                0x0000323c                USB_EndPoint0
+ .text.delay    0x00003568       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x00003568                delay
+ .text.EPAdr    0x00003594       0x30 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x00003594                EPAdr
+ .text.WrCmd    0x000035c4       0x58 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x000035c4                WrCmd
  .text.WrCmdDat
-                0x00003634       0x1c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003634                WrCmdDat
- .text.WrCmdEP  0x00003650       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003650                WrCmdEP
+                0x0000361c       0x1c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x0000361c                WrCmdDat
+ .text.WrCmdEP  0x00003638       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x00003638                WrCmdEP
  .text.RdCmdDat
-                0x0000367c       0x38 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x0000367c                RdCmdDat
+                0x00003664       0x38 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x00003664                RdCmdDat
  .text.USB_Connect
-                0x000036b4       0x5c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x000036b4                USB_Connect
+                0x0000369c       0x5c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x0000369c                USB_Connect
  .text.USB_Reset
-                0x00003710       0x24 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003710                USB_Reset
+                0x000036f8       0x24 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x000036f8                USB_Reset
  .text.USB_WakeUpCfg
-                0x00003734       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003734                USB_WakeUpCfg
+                0x0000371c       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x0000371c                USB_WakeUpCfg
  .text.USB_SetAddress
-                0x00003748       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003748                USB_SetAddress
+                0x00003730       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x00003730                USB_SetAddress
  .text.USB_Configure
-                0x00003784       0x30 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003784                USB_Configure
+                0x0000376c       0x30 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x0000376c                USB_Configure
  .text.USB_ConfigEP
-                0x000037b4       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x000037b4                USB_ConfigEP
+                0x0000379c       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x0000379c                USB_ConfigEP
  .text.USB_DirCtrlEP
-                0x000037c8       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x000037c8                USB_DirCtrlEP
+                0x000037b0       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x000037b0                USB_DirCtrlEP
  .text.USB_EnableEP
-                0x000037dc       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x000037dc                USB_EnableEP
+                0x000037c4       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x000037c4                USB_EnableEP
  .text.USB_DisableEP
-                0x00003808       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003808                USB_DisableEP
+                0x000037f0       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x000037f0                USB_DisableEP
  .text.USB_ResetEP
-                0x00003834       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003834                USB_ResetEP
+                0x0000381c       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x0000381c                USB_ResetEP
  .text.USB_SetStallEP
-                0x00003860       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003860                USB_SetStallEP
+                0x00003848       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x00003848                USB_SetStallEP
  .text.USB_ClrStallEP
-                0x0000388c       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x0000388c                USB_ClrStallEP
+                0x00003874       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x00003874                USB_ClrStallEP
  .text.USB_ReadEP
-                0x000038b8       0x80 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x000038b8                USB_ReadEP
+                0x000038a0       0x80 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x000038a0                USB_ReadEP
  .text.USB_WriteEP
-                0x00003938       0xa8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x00003938                USB_WriteEP
+                0x00003920       0xa8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x00003920                USB_WriteEP
  .text.USB_IRQHandler
-                0x000039e0      0x134 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
-                0x000039e0                USB_IRQHandler
+                0x000039c8      0x134 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+                0x000039c8                USB_IRQHandler
  .text.HID_GetIdle
-                0x00003b14       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
-                0x00003b14                HID_GetIdle
+                0x00003afc       0x2c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
+                0x00003afc                HID_GetIdle
  .text.HID_SetIdle
-                0x00003b40       0x28 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
-                0x00003b40                HID_SetIdle
+                0x00003b28       0x28 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
+                0x00003b28                HID_SetIdle
  .text.HID_GetProtocol
-                0x00003b68       0x20 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
-                0x00003b68                HID_GetProtocol
+                0x00003b50       0x20 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
+                0x00003b50                HID_GetProtocol
  .text.HID_SetProtocol
-                0x00003b88       0x24 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
-                0x00003b88                HID_SetProtocol
- .text.memset   0x00003bac        0x4 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
-                0x00003bac                memset
+                0x00003b70       0x24 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
+                0x00003b70                HID_SetProtocol
+ .text.memset   0x00003b94        0x4 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+                0x00003b94                memset
  .text.__aeabi_division_ldivmod
-                0x00003bb0       0x26 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(division_64.o)
-                0x00003bb0                __aeabi_ldivmod
+                0x00003b98       0x26 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(division_64.o)
+                0x00003b98                __aeabi_ldivmod
  .text.__aeabi_division_uldivmod
-                0x00003bd6      0x188 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(division_64.o)
-                0x00003bd6                __aeabi_uldivmod
-                0x00003bda                __bhs_ldivmod1
+                0x00003bbe      0x188 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(division_64.o)
+                0x00003bbe                __aeabi_uldivmod
+                0x00003bc2                __bhs_ldivmod1
  .text.__aeabi_division_idiv0
-                0x00003d5e        0x2 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
-                0x00003d5e                __aeabi_idiv0
+                0x00003d46        0x2 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+                0x00003d46                __aeabi_idiv0
  .text.__aeabi_dmul
-                0x00003d60      0x12c c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003d60                __aeabi_dmul
+                0x00003d48      0x12c c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00003d48                __aeabi_dmul
  .text.__aeabi_ddiv
-                0x00003e8c      0x16c c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003e8c                __aeabi_ddiv
+                0x00003e74      0x16c c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00003e74                __aeabi_ddiv
  .text.__aeabi_dsub
-                0x00003ff8      0x228 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003ff8                __aeabi_dsub
+                0x00003fe0      0x228 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00003fe0                __aeabi_dsub
  .text.__aeabi_dadd
-                0x00004220      0x178 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00004220                __aeabi_dadd
+                0x00004208      0x178 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00004208                __aeabi_dadd
  .text.__aeabi_d2iz
-                0x00004398       0x4c c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00004398                __aeabi_d2iz
+                0x00004380       0x4c c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00004380                __aeabi_d2iz
  .text.__bhs_ui2d
-                0x000043e4       0x48 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x000043e4                __bhs_ui2d
+                0x000043cc       0x48 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x000043cc                __bhs_ui2d
  .text.__bhs_ul2d
-                0x0000442c       0x90 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x0000442c                __bhs_ul2d
+                0x00004414       0x90 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00004414                __bhs_ul2d
  .text.__aeabi_i2d
-                0x000044bc       0x10 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x000044bc                __aeabi_i2d
+                0x000044a4       0x10 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x000044a4                __aeabi_i2d
  .text.__aeabi_ui2d
-                0x000044cc        0x8 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x000044cc                __aeabi_ui2d
+                0x000044b4        0x8 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x000044b4                __aeabi_ui2d
  .text.__aeabi_l2d
-                0x000044d4       0x24 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x000044d4                __aeabi_l2d
+                0x000044bc       0x24 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x000044bc                __aeabi_l2d
  .text.__aeabi_dcmplt
-                0x000044f8       0x70 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x000044f8                __aeabi_dcmplt
+                0x000044e0       0x70 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x000044e0                __aeabi_dcmplt
  .text.__aeabi_dcmpgt
-                0x00004568       0x6c c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00004568                __aeabi_dcmpgt
+                0x00004550       0x6c c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00004550                __aeabi_dcmpgt
  .text.__aeabi_memset_lowlevel
-                0x000045d4       0x38 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(memcpy.o)
-                0x000045d4                __aeabi_lowlevel_memset
+                0x000045bc       0x38 c:/nxp/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libcr_eabihelpers.a(memcpy.o)
+                0x000045bc                __aeabi_lowlevel_memset
  *(.rodata*)
- .rodata        0x0000460c       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
-                0x0000460c                enctbl
- .rodata        0x0000461c       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
- .rodata        0x00004658       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
-                0x00004658                USB_P_EP
- .rodata        0x0000466c       0x98 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_descriptors.o)
-                0x0000466c                USB_StringDescriptor
-                0x000046a4                USB_ConfigDescriptor
-                0x000046d0                USB_DeviceDescriptor
-                0x000046e2                HID_ReportDescSize
-                0x000046e4                HID_ReportDescriptor
+ .rodata        0x000045f4       0x10 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
+                0x000045f4                enctbl
+ .rodata        0x00004604       0x3c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
+ .rodata        0x00004640       0x14 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
+                0x00004640                USB_P_EP
+ .rodata        0x00004654       0x98 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_descriptors.o)
+                0x00004654                USB_StringDescriptor
+                0x0000468c                USB_ConfigDescriptor
+                0x000046b8                USB_DeviceDescriptor
+                0x000046ca                HID_ReportDescSize
+                0x000046cc                HID_ReportDescriptor
 
-.glue_7         0x00004704        0x0
+.glue_7         0x000046ec        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x00004704        0x0
+.glue_7t        0x000046ec        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00004704        0x0
+.vfp11_veneer   0x000046ec        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00004704        0x0
+.v4_bx          0x000046ec        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00004704        0x0
+.iplt           0x000046ec        0x0
  .iplt          0x00000000        0x0 ./src/control.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00004704                __exidx_start = .
+                0x000046ec                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00004704                __exidx_end = .
-                0x00004704                _etext = .
+                0x000046ec                __exidx_end = .
+                0x000046ec                _etext = .
 
 .cmap           0x00007000      0x160
  *(.Const_Map*)
@@ -758,7 +758,7 @@ END GROUP
 .rel.dyn        0x00007160        0x0
  .rel.iplt      0x00000000        0x0 ./src/control.o
 
-.data           0x10000000       0x10 load address 0x00004704
+.data           0x10000000       0x10 load address 0x000046ec
                 0x10000000                _data = .
  *(vtable)
  *(.data*)
@@ -773,10 +773,10 @@ END GROUP
                 0x1000000c                iap_entry
                 0x10000010                _edata = .
 
-.igot.plt       0x10000010        0x0 load address 0x00004714
+.igot.plt       0x10000010        0x0 load address 0x000046fc
  .igot.plt      0x00000000        0x0 ./src/control.o
 
-.bss            0x10000010     0x14ee load address 0x00004714
+.bss            0x10000010     0x14ee load address 0x000046fc
                 0x10000010                _bss = .
  *(.bss*)
  .bss           0x10000010       0x40 ./src/control.o
@@ -872,7 +872,7 @@ END GROUP
                 0x100014fd                HID_Protocol
                 0x100014fe                _ebss = .
 
-.cr_heap        0x100014fe        0x0 load address 0x00004714
+.cr_heap        0x100014fe        0x0 load address 0x000046fc
                 0x100014fe                end = .
                 0x100014fe                _pvHeapStart = .
                 0x10002000                _vRamTop = __top_RamLoc8
@@ -1016,29 +1016,29 @@ OUTPUT(Balancer2_firm_Default.axf elf32-littlearm)
  .debug_ranges  0x000004f8       0xd8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
  .debug_ranges  0x000005d0       0x28 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
 
-.debug_line     0x00000000     0x2ee5
- .debug_line    0x00000000      0x1b5 ./src/control.o
- .debug_line    0x000001b5      0x163 ./src/cr_startup_lpc13.o
- .debug_line    0x00000318      0x1e3 ./src/main.o
- .debug_line    0x000004fb      0x1e3 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
- .debug_line    0x000006de      0x21d C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
- .debug_line    0x000008fb      0x23c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gpio.o)
- .debug_line    0x00000b37      0x19f C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gyro.o)
- .debug_line    0x00000cd6      0x196 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
- .debug_line    0x00000e6c      0x21b C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(log.o)
- .debug_line    0x00001087      0x18c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(system_LPC13xx.o)
- .debug_line    0x00001213      0x22e C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(uart.o)
- .debug_line    0x00001441      0x204 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(util.o)
- .debug_line    0x00001645      0x416 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
- .debug_line    0x00001a5b      0x1e6 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(adc.o)
- .debug_line    0x00001c41      0x195 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
- .debug_line    0x00001dd6       0x93 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(mot.o)
- .debug_line    0x00001e69      0x209 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
- .debug_line    0x00002072      0x2e8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
- .debug_line    0x0000235a      0x477 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
- .debug_line    0x000027d1      0x13c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_descriptors.o)
- .debug_line    0x0000290d      0x43e C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
- .debug_line    0x00002d4b      0x19a C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
+.debug_line     0x00000000     0x2ee3
+ .debug_line    0x00000000      0x1b3 ./src/control.o
+ .debug_line    0x000001b3      0x163 ./src/cr_startup_lpc13.o
+ .debug_line    0x00000316      0x1e3 ./src/main.o
+ .debug_line    0x000004f9      0x1e3 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(current.o)
+ .debug_line    0x000006dc      0x21d C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(enc.o)
+ .debug_line    0x000008f9      0x23c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gpio.o)
+ .debug_line    0x00000b35      0x19f C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(gyro.o)
+ .debug_line    0x00000cd4      0x196 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(i2c.o)
+ .debug_line    0x00000e6a      0x21b C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(log.o)
+ .debug_line    0x00001085      0x18c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(system_LPC13xx.o)
+ .debug_line    0x00001211      0x22e C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(uart.o)
+ .debug_line    0x0000143f      0x204 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(util.o)
+ .debug_line    0x00001643      0x416 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(vs-bb022.o)
+ .debug_line    0x00001a59      0x1e6 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(adc.o)
+ .debug_line    0x00001c3f      0x195 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(flash.o)
+ .debug_line    0x00001dd4       0x93 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(mot.o)
+ .debug_line    0x00001e67      0x209 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(pad.o)
+ .debug_line    0x00002070      0x2e8 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_user.o)
+ .debug_line    0x00002358      0x477 C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_core.o)
+ .debug_line    0x000027cf      0x13c C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_descriptors.o)
+ .debug_line    0x0000290b      0x43e C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hardware.o)
+ .debug_line    0x00002d49      0x19a C:/Users/Natsuki/OneDrive/Documents/Atsumiken/BeautoBalancer/Balancer2_firm_Default/lib\libBalancer2_lib.a(usb_hiduser.o)
 
 .debug_str      0x00000000     0x23c4
  .debug_str     0x00000000      0x5e7 ./src/control.o
