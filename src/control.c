@@ -105,8 +105,8 @@ void Control(){
 
 	// ステップ応答
 	if ( count(2000) < cnt1++ ){
-		memmap.values.T_SPD_L = 10;
-		memmap.values.T_SPD_R = 10;
+		memmap.values.T_SPD_L = 5;
+		memmap.values.T_SPD_R = 5;
 	}
 
 	//最大指令値規制
