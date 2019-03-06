@@ -105,8 +105,12 @@ void Control(){
 
 	// ステップ応答
 	if ( count(2000) < cnt1++ ){
-		memmap.values.T_SPD_L = 5;
-		memmap.values.T_SPD_R = 5;
+		memmap.values.T_SPD_L = 10;
+		memmap.values.T_SPD_R = 11;
+		if ( memmap.values.WHEEL_ANGLE_L > 570) {
+			memmap.values.T_SPD_L = 0;
+			memmap.values.T_SPD_R = 0;
+		}
 	}
 
 	//最大指令値規制
